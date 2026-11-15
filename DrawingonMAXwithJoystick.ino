@@ -9,7 +9,7 @@ const int clk = 52;
 // Make the joystick pins into variables
 const int joyx = A0;
 const int joyy = A1;
-const int sw = 13;
+const int sw = 7;
 
 // Initialize the MAX7219 module
 LedControl lc(din, clk, cs, 1);
